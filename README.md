@@ -1,6 +1,6 @@
-# Ray Tracer
+# Ray Tracer in cpp
 
-A small CPU ray tracer written in C++. It loads a hardcoded scene (triangles + materials), shoots rays through a virtual camera, and spits out a `.ppm` image. Supports reflection, transparency, and basic diffuse shading with shadow rays — and parallelizes the render across rows with OpenMP if it's available.
+A small CPU ray tracer written in C++. It loads a hardcoded scene (triangles + materials), shoots rays through a virtual camera, and spits out a `.ppm` image. Supports reflection, transparency, and basic diffuse shading with shadow rays and parallelizes the render across rows with OpenMP if it's available.
 
 ## How it works
 
